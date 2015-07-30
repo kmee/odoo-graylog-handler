@@ -1,7 +1,7 @@
 {
     "name": "GrayLog2 Handler",
     "version": "0.0.1",
-    "author": "JBM",
+    "author": "Management adn Accounting On-line",
     "website": "",
     "summary": "Provides ability to send log messages to graylog2 server",
     "category": "Added functionality",
