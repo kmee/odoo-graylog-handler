@@ -8,7 +8,8 @@ git clone https://github.com/kmee/graylog2_handler.git
 
 ### Setup odoo
 Edit odoo.cfg file and add these values
-
+* add full path of graylog2_handler to addons_path
+and add gelf options
 * gelf_enabled=True
 * gelf_host=[Graylog2 IP_ADDRESS or FQDN]
 * gelf_port=[Graylog2 Stream Port]
