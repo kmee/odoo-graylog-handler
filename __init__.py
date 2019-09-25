@@ -26,5 +26,5 @@ if gelf_enabled:
 
     logger = logging.getLogger()
 
-    handler = graypy.GELFHandler(gelf_host, gelf_port, **kwargs)
+    handler = graypy.GELFUDPHandler(gelf_host, gelf_port, **kwargs)
     logger.addHandler(handler)
