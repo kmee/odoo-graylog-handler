@@ -1,10 +1,8 @@
 {
     "name": "GrayLog2 Handler",
-    "version": "0.0.1",
+    "version": "14.0.1.0.0",
     "author": "Management adn Accounting On-line",
-    "website": "",
     "summary": "Provides ability to send log messages to graylog2 server",
-    "category": "Added functionality",
     "depends": [
     ],
     "description": """
@@ -15,16 +13,8 @@ Aditional options available for config file:
     gelf_localname: string
 
     """,
-    "init_xml": [
-    ],
-    "demo": [
-    ],
-    "test": [
-    ],
-    "update_xml": [
-    ],
+    "external_dependencies": {
+        "python": ["graypy"]
+    },
     "active": True,
 }
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
-

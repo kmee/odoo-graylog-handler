@@ -1,7 +1,7 @@
 import logging
 import graypy
 
-import openerp.tools as tools
+import odoo.tools as tools
 
 
 _logger = logging.getLogger(__name__)
