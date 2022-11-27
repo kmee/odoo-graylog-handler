@@ -13,6 +13,7 @@ Aditional options available for config file:
     gelf_localname: string
 
     """,
+    "license": "LGPL-3",
     "external_dependencies": {
         "python": ["graypy"]
     },
