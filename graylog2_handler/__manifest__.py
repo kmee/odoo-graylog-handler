@@ -1,6 +1,6 @@
 {
     "name": "GrayLog2 Handler",
-    "version": "14.0.1.0.0",
+    "version": "17.0.1.0.0",
     "author": "Management adn Accounting On-line",
     "summary": "Provides ability to send log messages to graylog2 server",
     "depends": [
